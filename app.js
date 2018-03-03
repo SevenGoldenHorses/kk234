@@ -53,7 +53,7 @@ function BOMBA(tweet) {
 			var tempoRitardo = Math.round(r/60000);
 			console.log(tempoRitardo + ' minuti al RT e LK di ' + tweetName + '\n' );
 			//faccio partire la funzione con ritardo
-			setTimeout(RTF, 1000 );
+			setTimeout(RTF, r );
 		}else{
 		 	console.log('E\' un RT o un commento. Non lo retwitto.\n');
 		}; //chiusura IF RT o COMMENTO
